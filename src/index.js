@@ -20,4 +20,7 @@ module.exports = {
   get checkInternetConnection() {
     return require('./checkInternetConnection').default;
   },
+  get checkInternetAccess() {
+    return require('./checkInternetAccess').default;
+  },
 };
